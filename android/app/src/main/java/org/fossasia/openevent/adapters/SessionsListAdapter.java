@@ -150,31 +150,31 @@ public class SessionsListAdapter extends BaseRVAdapter<Session, SessionsListAdap
     protected class SessionViewHolder extends RecyclerView.ViewHolder {
 
         @BindView(R.id.session_title)
-        TextView sessionTitle;
+        protected TextView sessionTitle;
 
         @BindView(R.id.session_subtitle)
-        TextView sessionSubtitle;
+        protected TextView sessionSubtitle;
 
         @BindView(R.id.session_track)
-        TextView sessionTrack;
+        protected TextView sessionTrack;
 
         @BindView(R.id.session_date)
-        TextView sessionDate;
+        protected TextView sessionDate;
 
         @BindView(R.id.session_start_time)
-        TextView sessionStartTime;
+        protected TextView sessionStartTime;
 
         @BindView(R.id.session_location)
-        TextView sessionLocation;
+        protected TextView sessionLocation;
 
         @BindView(R.id.session_bookmark_status)
-        ImageView sessionImage;
+        protected ImageView sessionImage;
 
         @BindView(R.id.session_details)
-        LinearLayout sessionDetailsHolder;
+        protected LinearLayout sessionDetailsHolder;
 
         @BindView(R.id.session_card)
-        CardView sessionCard;
+        protected CardView sessionCard;
 
         public SessionViewHolder(View itemView) {
             super(itemView);
